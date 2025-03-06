@@ -60,9 +60,9 @@ A sleek and modern e-commerce mobile application built with Flutter, featuring a
     <td>Product Details</td>
   </tr>
   <tr>
-    <td><img src="screenshots/splash.png" width="200"/></td>
-    <td><img src="screenshots/categories.png" width="200"/></td>
-    <td><img src="screenshots/product_details.png" width="200"/></td>
+    <td><img src="screenshots/splash.jpg" width="200"/></td>
+    <td><img src="screenshots/categories.jpg" width="200"/></td>
+    <td><img src="screenshots/product_details.jpg" width="200"/></td>
   </tr>
 </table>
 
