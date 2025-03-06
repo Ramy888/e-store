@@ -4,6 +4,21 @@ A sleek and modern e-commerce mobile application built with Flutter, featuring a
 
 ![App Banner](assets/images/logo.png)
 
+## 📱 Screenshots
+
+<table>
+  <tr>
+    <td>Splash Screen</td>
+    <td>Categories</td>
+    <td>Product Details</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/splash.jpg" width="200"/></td>
+    <td><img src="screenshots/categories.jpg" width="200"/></td>
+    <td><img src="screenshots/product_details.jpg" width="200"/></td>
+  </tr>
+</table>
+
 ## 🌟 Features
 
 ### 🎨 Modern UI/UX
@@ -51,20 +66,7 @@ A sleek and modern e-commerce mobile application built with Flutter, featuring a
   - Efficient data handling
   - Real-time updates
 
-## 📱 Screenshots
 
-<table>
-  <tr>
-    <td>Splash Screen</td>
-    <td>Categories</td>
-    <td>Product Details</td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/splash.jpg" width="200"/></td>
-    <td><img src="screenshots/categories.jpg" width="200"/></td>
-    <td><img src="screenshots/product_details.jpg" width="200"/></td>
-  </tr>
-</table>
 
 ## 🚀 Getting Started
 
@@ -100,11 +102,10 @@ flutter run
 
 - **Frontend**: Flutter
 - **State Management**: Provider
-- **Design Pattern**: MVVM
 - **Animation**: Custom Flutter animations
-- **HTTP Client**: Dio
 - **Image Loading**: Cached Network Image
 - **Date Formatting**: Intl package
+- **Provider pattern implementation**: Provider package
 
 ## 📂 Project Structure
 
@@ -113,11 +114,13 @@ lib/
 ├── models/          # Data models
 ├── providers/       # State management
 ├── screens/         # UI screens
-│   ├── splash/
-│   ├── categories/
-│   └── products/
+│   ├── cart_screen/
+│   ├── categories_screen/
+│   ├── products_screen/
+│   └── product_details_screen/
 ├── widgets/         # Reusable widgets
-├── utils/          # Helper functions
+│   └── product_grid_item/
+├── splash_screen.dart   # splash
 └── main.dart       # Entry point
 ```
 
